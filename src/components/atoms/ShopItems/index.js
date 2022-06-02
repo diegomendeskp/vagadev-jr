@@ -8,6 +8,10 @@ import {
   Button,
 } from './styles';
 
+const buy = function () {
+  return;
+};
+
 export function ShopItems() {
   return (
     <Container>
@@ -15,7 +19,7 @@ export function ShopItems() {
         <Img />
         <Name>Jogos</Name>
         <Price>R$ 200,00</Price>
-        <Button>COMPRAR</Button>
+        <Button onClick={buy}>COMPRAR</Button>
       </CardItem>
     </Container>
   );

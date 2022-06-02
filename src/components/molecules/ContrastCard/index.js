@@ -11,7 +11,7 @@ function ContrastCard() {
           <Card />
         </Div>
         <P>
-          <Square />
+          <Square src={require('../../../img/Group 6.png')} />
           Produtos em Destaque
         </P>
         <ShopDiv>

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Img } from './styles';
 
-export function Logo() {
+export function LogoFooter() {
   return (
     <Container>
-      <Img src={require('../../../img/logo-n1.png')} />
+      <Img src={require('../../../img/logo_header 1.png')} />
     </Container>
   );
 }
 
-export default Logo;
+export default LogoFooter;

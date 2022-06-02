@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from './styles';
-import { Logo } from '../../atoms';
+import { LogoFooter } from '../../atoms';
 
 function FooterLeftSide() {
   return (
     <Container>
       <React.Fragment>
-        <Logo />
+        <LogoFooter />
       </React.Fragment>
     </Container>
   );

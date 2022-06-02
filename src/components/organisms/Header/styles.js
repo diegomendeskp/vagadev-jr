@@ -10,4 +10,5 @@ export const Container = styled.div`
   color: antiquewhite;
   position: absolute;
   background-color: #084154;
+  margin-top: 15px;
 `;

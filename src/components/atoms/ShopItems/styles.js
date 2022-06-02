@@ -12,7 +12,8 @@ export const Container = styled.div`
 export const CardItem = styled.div`
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  justify-content: center;
   max-width: 250px;
   max-height: 320px;
   text-align: center;
@@ -51,4 +52,7 @@ export const Button = styled.button`
   margin-bottom: 5px;
   cursor: pointer;
   width: 150px;
+  &:active {
+    background-color: #084154;
+  }
 `;

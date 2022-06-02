@@ -1,11 +1,21 @@
 import { useState } from 'react';
 import React from 'react';
-import { Container, Button, Div, List, Link, Span } from './styles';
+import {
+  Container,
+  Button,
+  Div,
+  List,
+  Link,
+  Span,
+  Icon,
+} from './styles';
 
 export function Menu() {
   return (
     <Container>
-      <Button>menu</Button>
+      <Button>
+        <Icon src={require('../../../img/icon_hamburguer.png')} />{' '}
+      </Button>
 
       <Div>
         <List>

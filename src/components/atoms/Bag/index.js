@@ -1,8 +1,12 @@
 import React from 'react';
-import { Container } from './styles';
+import { Container, Icon } from './styles';
 
 export function Bag() {
-  return <Container>bag</Container>;
+  return (
+    <Container>
+      <Icon src={require('../../../img/shopping-bag-solid.png')} />
+    </Container>
+  );
 }
 
 export default Bag;

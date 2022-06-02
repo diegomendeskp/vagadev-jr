@@ -17,7 +17,6 @@ export const Div = styled.div`
   align-items: center;
   gap: 30px 30px;
   align-content: center;
-  z-index: 1;
 `;
 
 export const P = styled.p`
@@ -27,13 +26,12 @@ export const P = styled.p`
   display: flex;
   flex-direction: row;
   color: #084154;
+  gap: 15px;
 `;
 
-export const Square = styled.div`
+export const Square = styled.img`
   width: 18px;
   height: 18px;
-  background: #3ec6e0;
-  padding-right: 10px;
 `;
 
 export const ShopDiv = styled.div`

@@ -67,3 +67,9 @@ export const Span = styled.span`
   font-size: 15px;
   font-weight: bold;
 `;
+
+export const Icon = styled.img`
+  width: 16px;
+  height: 16px;
+  filter: invert(90%);
+`;
