@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
+  width: auto;
+  height: auto;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,8 +16,8 @@ export const CardItem = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 250px;
-  max-height: 320px;
+  max-width: 280px;
+  height: 450px;
   text-align: center;
   position: relative;
   box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
@@ -25,18 +27,18 @@ export const CardItem = styled.div`
 
 export const Img = styled.img`
   display: flex;
-  width: 220px;
+  width: 280px;
   height: 320px;
   background-color: silver;
   border-radius: 10px 10px 0 0;
-  border-bottom: 1px solid #3ec6e0;
+  border-bottom: 2px solid #3ec6e0;
 `;
 
 export const ProductInfo = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 200px;
+  width: 220px;
 `;
 export const Name = styled.p`
   padding-top: 10px;
@@ -55,7 +57,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 7px;
+  padding: 15px;
   border-radius: 3px;
   background-color: #3ec6e0;
   color: antiquewhite;
@@ -80,7 +82,7 @@ export const Mario = styled.img`
   width: 60px;
   height: 70px;
   position: absolute;
-  left: 150px;
+  left: 170px;
   z-index: 1;
-  bottom: 5px;
+  bottom: 17px;
 `;

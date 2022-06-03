@@ -31,7 +31,7 @@ export const Div = styled.div`
   min-width: 160px;
   border-radius: 5px;
   box-shadow: 11px 11px #3ec6e0;
-  z-index: 1;
+  z-index: 5;
   &::after {
   }
   &:hover {

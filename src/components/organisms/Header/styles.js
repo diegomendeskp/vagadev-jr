@@ -8,7 +8,5 @@ export const Container = styled.div`
   justify-content: space-around;
   font-size: 20px;
   color: antiquewhite;
-  position: absolute;
   background-color: #084154;
-  margin-top: 15px;
 `;

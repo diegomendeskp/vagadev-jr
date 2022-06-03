@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   width: auto;
   height: auto;
-  gap: 30px 30px;
+  gap: 70px 50px;
 `;
 export const Div = styled.div`
   display: flex;
