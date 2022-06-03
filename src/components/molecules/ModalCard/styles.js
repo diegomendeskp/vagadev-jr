@@ -47,3 +47,11 @@ export const Line = styled.div`
   top: -40px;
   border: 1px solid #084154;
 `;
+export const Button = styled.button`
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+`;

@@ -4,14 +4,17 @@ import Footer from './components/organisms/Footer';
 import Contrast from './components/organisms/Contrast';
 import PurchaseModal from './components/organisms/PurchaseModal';
 import { Container } from './styles/styles';
+import { ModalProvider } from './context';
 function App() {
   return (
-    <Container>
-      <Header />
-      <Contrast />
-      <Footer />
-      <PurchaseModal />
-    </Container>
+    <ModalProvider>
+      <Container>
+        <Header />
+        <Contrast />
+        <Footer />
+        <PurchaseModal />
+      </Container>
+    </ModalProvider>
   );
 }
 

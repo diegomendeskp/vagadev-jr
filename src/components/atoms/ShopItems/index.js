@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { useModalContext } from '../../../context';
 
 import {
   Container,
@@ -14,8 +15,11 @@ import {
 } from './styles';
 
 export function ShopItems() {
+  const { toggleModal } = useModalContext();
+
   const [isBought, setIsBought] = useState(false);
   const buyItem = () => {
+    toggleModal(true);
     setIsBought(true);
   };
 

@@ -2,20 +2,12 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import ModalCard from '../../molecules/ModalCard';
 import { customStyles } from './styles';
+import { useModalContext } from '../../../context';
 
 export function PurchaseModal() {
-  const [isOpen, setIsOpen] = useState(true);
-
-  function toggleModal() {
-    setIsOpen(!isOpen);
-  }
-
-  function autoToggleModal() {
-    setTimeout(() => {
-      setIsOpen(!isOpen);
-    }, 55500);
-  }
-
+  const { isOpen } = useModalContext();
+  const { autoToggleModal } = useModalContext();
+  const { toggleModal } = useModalContext();
   return (
     <Modal
       onAfterOpen={autoToggleModal}
