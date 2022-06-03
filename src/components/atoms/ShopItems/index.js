@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import styled from 'styled-components';
+
 import {
   Container,
   CardItem,
@@ -6,20 +8,35 @@ import {
   Name,
   Price,
   Button,
+  Mario,
+  SecundaryButton,
+  ProductInfo,
 } from './styles';
 
-const buy = function () {
-  return;
-};
-
 export function ShopItems() {
+  const [isBought, setIsBought] = useState(false);
+  const buyItem = () => {
+    setIsBought(true);
+  };
+
   return (
     <Container>
       <CardItem>
-        <Img />
-        <Name>Jogos</Name>
-        <Price>R$ 200,00</Price>
-        <Button onClick={buy}>COMPRAR</Button>
+        <Img src={require('../../../img/product-outriders.png')} />
+
+        <ProductInfo>
+          <Name>Jogos</Name>
+          <Price>R$ 200,00</Price>
+        </ProductInfo>
+        {isBought ? (
+          <SecundaryButton>comprado!</SecundaryButton>
+        ) : (
+          <Button onClick={buyItem}>comprar</Button>
+        )}
+        <Mario
+          isVisible={isBought}
+          src={require('../../../img/image_6-removebg-preview 1.png')}
+        />
       </CardItem>
     </Container>
   );

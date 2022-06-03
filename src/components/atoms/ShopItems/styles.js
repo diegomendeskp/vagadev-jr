@@ -17,13 +17,26 @@ export const CardItem = styled.div`
   max-width: 250px;
   max-height: 320px;
   text-align: center;
+  position: relative;
+  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  background-color: #f5f5f5;
 `;
 
-export const Img = styled.div`
+export const Img = styled.img`
   display: flex;
   width: 220px;
   height: 320px;
   background-color: silver;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #3ec6e0;
+`;
+
+export const ProductInfo = styled.div`
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 200px;
 `;
 export const Name = styled.p`
   padding-top: 10px;
@@ -51,8 +64,23 @@ export const Button = styled.button`
   border: none;
   margin-bottom: 5px;
   cursor: pointer;
-  width: 150px;
-  &:active {
-    background-color: #084154;
-  }
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+`;
+export const SecundaryButton = styled(Button)`
+  background-color: #084154;
+  z-index: 0;
+  padding-left: 20px;
+  justify-content: flex-start;
+`;
+
+export const Mario = styled.img`
+  display: ${({ isVisible }) => (isVisible ? 'flex' : 'none')};
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  left: 150px;
+  z-index: 1;
+  bottom: 5px;
 `;

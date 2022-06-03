@@ -22,7 +22,7 @@ export const Button = styled.button`
 `;
 export const Div = styled.div`
   display: none;
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 20px 10px;
   text-align: left;
   position: absolute;
@@ -46,6 +46,7 @@ export const List = styled.ul`
   display: block;
   li:not(:first-child) {
     margin-top: 6px;
+    z-index: 1;
   }
 `;
 
@@ -72,4 +73,16 @@ export const Icon = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(90%);
+`;
+
+export const Square = styled.div`
+  width: 0;
+  height: 0;
+  border-top: 18px solid #3ec6e0;
+  border-left: 18px solid transparent;
+  position: absolute;
+  transform: rotate(-50deg);
+  left: 15px;
+  top: -10px;
+  z-index: 0;
 `;

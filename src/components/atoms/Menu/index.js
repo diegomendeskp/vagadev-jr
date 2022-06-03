@@ -8,6 +8,7 @@ import {
   Link,
   Span,
   Icon,
+  Square,
 } from './styles';
 
 export function Menu() {
@@ -18,6 +19,8 @@ export function Menu() {
       </Button>
 
       <Div>
+        <Square />
+
         <List>
           <li>
             <Span>Luta</Span>
