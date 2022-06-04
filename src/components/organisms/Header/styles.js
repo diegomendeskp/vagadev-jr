@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  box-sizing: border-box;
   width: 100%;
   height: 10%;
   display: flex;
@@ -8,5 +9,5 @@ export const Container = styled.div`
   justify-content: space-around;
   font-size: 20px;
   color: antiquewhite;
-  background-color: #084154;
+  z-index: 1;
 `;

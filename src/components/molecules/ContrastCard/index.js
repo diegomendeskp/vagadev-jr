@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, P, Square, Div, ShopDiv } from './styles';
 import { Card } from '../../atoms/';
-import ShopItems from '../../atoms/ShopItems';
+import Outriders from '../../atoms/Outriders';
+import Cyberpunk from '../../atoms/Cyberpunk';
+import DonkeyKong from '../../atoms/DonkeyKong';
 
 function ContrastCard() {
   return (
@@ -15,9 +17,9 @@ function ContrastCard() {
           Produtos em Destaque
         </P>
         <ShopDiv>
-          <ShopItems />
-          <ShopItems />
-          <ShopItems />
+          <Outriders />
+          <Cyberpunk />
+          <DonkeyKong />
         </ShopDiv>
       </Container>
     </React.Fragment>

@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   width: auto;
   height: auto;
-  gap: 70px 50px;
+  gap: 50px 40px;
 `;
 export const Div = styled.div`
   display: flex;
@@ -36,5 +36,8 @@ export const Square = styled.img`
 
 export const ShopDiv = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
 `;

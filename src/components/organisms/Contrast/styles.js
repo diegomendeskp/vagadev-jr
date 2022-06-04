@@ -11,5 +11,5 @@ export const Container = styled.div`
   height: 100%;
   justify-content: space-around;
   z-index: 2;
-  margin-top: -3vh;
+  margin-top: 330px;
 `;

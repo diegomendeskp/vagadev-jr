@@ -14,7 +14,7 @@ import {
   ProductInfo,
 } from './styles';
 
-export function ShopItems() {
+export function Outriders() {
   const { toggleModal } = useModalContext();
 
   const [isBought, setIsBought] = useState(false);
@@ -29,7 +29,7 @@ export function ShopItems() {
         <Img src={require('../../../img/product-outriders.png')} />
 
         <ProductInfo>
-          <Name>Jogos</Name>
+          <Name>Outriders</Name>
           <Price>R$ 200,00</Price>
         </ProductInfo>
         {isBought ? (
@@ -46,4 +46,4 @@ export function ShopItems() {
   );
 }
 
-export default ShopItems;
+export default Outriders;

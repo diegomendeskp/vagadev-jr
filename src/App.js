@@ -5,11 +5,14 @@ import Contrast from './components/organisms/Contrast';
 import PurchaseModal from './components/organisms/PurchaseModal';
 import { Container } from './styles/styles';
 import { ModalProvider } from './context';
+import Carousel from './components/molecules/Carousel';
+
 function App() {
   return (
     <ModalProvider>
       <Container>
         <Header />
+        <Carousel />
         <Contrast />
         <Footer />
         <PurchaseModal />

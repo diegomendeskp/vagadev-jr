@@ -6,3 +6,5 @@ export * from './LogoFooter';
 export * from './Card';
 export * from './LogoRush';
 export * from './ModalImg';
+export * from './Cyberpunk';
+export * from './DonkeyKong';

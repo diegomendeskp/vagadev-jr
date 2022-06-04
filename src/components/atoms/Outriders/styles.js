@@ -15,9 +15,10 @@ export const CardItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 280px;
-  height: 450px;
+  height: 480px;
+  gap: 10px;
   text-align: center;
   position: relative;
   box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
@@ -38,6 +39,7 @@ export const ProductInfo = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  gap: 5px;
   width: 220px;
 `;
 export const Name = styled.p`
@@ -84,5 +86,5 @@ export const Mario = styled.img`
   position: absolute;
   left: 170px;
   z-index: 1;
-  bottom: 17px;
+  bottom: 35px;
 `;
