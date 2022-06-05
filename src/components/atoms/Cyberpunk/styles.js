@@ -10,6 +10,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 20px 20px;
   align-content: center;
+  z-index: 1;
 `;
 export const CardItem = styled.div`
   display: flex;

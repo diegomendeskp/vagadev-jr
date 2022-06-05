@@ -8,6 +8,7 @@ export const Container = styled.div`
   width: auto;
   height: auto;
   gap: 50px 40px;
+  z-index: 1;
 `;
 export const Div = styled.div`
   display: flex;
@@ -37,7 +38,7 @@ export const Square = styled.img`
 export const ShopDiv = styled.div`
   display: flex;
   flex-wrap: wrap;
-  column-gap: 20px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 `;

@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Container, Icon } from './styles';
+import { Container, Icon, P } from './styles';
 
 export function Contact() {
   return (
     <Container>
       <Icon src={require('../../../img/paper-plane.png')} />
-      <p>Contato</p>
+      <P>Contato</P>
     </Container>
   );
 }

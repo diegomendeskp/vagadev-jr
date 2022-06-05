@@ -9,18 +9,20 @@ export const Container = styled.div`
   align-items: center;
   gap: 20px 20px;
   align-content: center;
+  z-index: 1;
 `;
+
 export const ImgCard = styled.img`
   display: flex;
   position: relative;
-
   max-width: 450px;
   max-height: 400px;
   text-align: center;
   background-color: #093846;
   @media (max-width: 500px) {
     max-width: 300px;
-    max-height: 250px;
+    max-height: 350px;
+    z-index: 0;
   }
 `;
 export const Div = styled.div`

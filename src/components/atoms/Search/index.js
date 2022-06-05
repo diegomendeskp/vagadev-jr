@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Icon } from './styles';
+import { Container, Icon, P } from './styles';
 
 export function Search() {
   return (
     <Container>
       <Icon src={require('../../../img/search-solid.png')} />
-      <p>Busca</p>
+      <P>Busca</P>
     </Container>
   );
 }

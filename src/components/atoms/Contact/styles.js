@@ -12,3 +12,8 @@ export const Icon = styled.img`
   height: 17px;
   filter: invert(90%);
 `;
+export const P = styled.p`
+  @media (max-width: 500px) {
+    display: none;
+  }
+`;

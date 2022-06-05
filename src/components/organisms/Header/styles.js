@@ -10,4 +10,8 @@ export const Container = styled.div`
   font-size: 20px;
   color: antiquewhite;
   z-index: 1;
+  @media (max-width: 500px) {
+    height: 15%;
+    padding-top: 5px;
+  }
 `;

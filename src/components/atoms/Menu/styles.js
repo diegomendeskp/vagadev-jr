@@ -30,15 +30,15 @@ export const Div = styled.div`
   min-width: 160px;
   border-radius: 5px;
   box-shadow: 11px 11px #3ec6e0;
-  z-index: 3;
+  z-index: 9;
   &:hover {
     display: flex;
   }
   @media (max-width: 500px) {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
+    gap: 20px;
     box-shadow: none;
     border-radius: 0;
     padding: none;
@@ -46,6 +46,10 @@ export const Div = styled.div`
     outline: none;
     width: 100%;
     height: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    z-index: 99;
   }
 `;
 
@@ -72,8 +76,9 @@ export const Link = styled.a`
     font-size: 20px;
   }
   &:hover {
-    background-color: #3ec6e0;
+    background: #3ec6e0;
     border-radius: 5px;
+    border-width: 100%;
   }
 `;
 
@@ -106,5 +111,26 @@ export const Square = styled.div`
   z-index: 0;
   @media (max-width: 500px) {
     display: none;
+  }
+`;
+
+export const CloseBtn = styled.button`
+  display: none;
+  border: none;
+  background: none;
+  color: #ffffff;
+
+  @media (max-width: 500px) {
+    display: block;
+    font-size: 30px;
+    width: auto;
+    cursor: pointer;
+
+    &:hover Div {
+      display: flex;
+    }
+    &:hover {
+      background-color: black;
+    }
   }
 `;

@@ -18,18 +18,6 @@ export const Img = styled.img`
   align-items: center;
   z-index: 0;
 `;
-export const ImgTwo = styled.img`
-  width: 100%;
-  display: flex;
-  position: relative;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 0;
-  @media (max-width: 500px) {
-  }
-`;
 
 export const Div = styled.div`
   position: relative;
@@ -88,11 +76,6 @@ export const BoxArrow = styled.div`
   height: 280px;
   z-index: 2;
   border-radius: 0px 0px 0px 10px;
-  @media (max-width: 500px) {
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-  }
 `;
 export const SubTitleOne = styled.p`
   position: absolute;

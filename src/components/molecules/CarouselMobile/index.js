@@ -1,14 +1,11 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
-import image1 from '../../../img/principal_banner_desktop.jpg';
-import image2 from '../../../img/principal_banner_desktop_02.jpg';
-import image3 from '../../../img/principal_banner_mobile.jpg';
-import image4 from '../../../img/principal_banner_mobile_02.jpg';
+import image1 from '../../../img/principal_banner_mobile.jpg';
+import image2 from '../../../img/principal_banner_mobile_02.jpg';
 
 import {
   Container,
   Img,
-  ImgTwo,
   P,
   Title,
   Price,
@@ -21,7 +18,7 @@ import {
 } from './styles';
 import 'react-slideshow-image/dist/styles.css';
 import '../../../styles/index.css';
-const fadeImages = [image1, image2, image3, image4];
+const fadeImages = [image1, image2];
 
 const zoomOutProperties = {
   duration: 5000,
@@ -32,7 +29,7 @@ const zoomOutProperties = {
   arrows: true,
 };
 
-function Carousel() {
+function CarouselMobile() {
   return (
     <Container>
       <Fade>
@@ -56,7 +53,7 @@ function Carousel() {
           </Div>
         </div>
         <div className="each-fade">
-          <ImgTwo src={fadeImages[1]} />
+          <Img src={fadeImages[1]} />
           <Div>
             <BoxArrow />
 
@@ -69,4 +66,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default CarouselMobile;

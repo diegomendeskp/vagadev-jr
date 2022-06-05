@@ -9,6 +9,7 @@ import {
   Span,
   Icon,
   Square,
+  CloseBtn,
 } from './styles';
 
 export function Menu() {
@@ -22,6 +23,7 @@ export function Menu() {
         <Square />
 
         <List>
+          <CloseBtn>X</CloseBtn>
           <li>
             <Span>Luta</Span>
           </li>
