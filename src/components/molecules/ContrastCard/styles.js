@@ -9,6 +9,9 @@ export const Container = styled.div`
   height: auto;
   gap: 50px 40px;
   z-index: 1;
+  @media (max-width: 500px) {
+    margin-top: 110px;
+  }
 `;
 export const Div = styled.div`
   display: flex;

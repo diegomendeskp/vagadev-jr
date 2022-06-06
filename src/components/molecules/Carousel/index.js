@@ -43,7 +43,7 @@ function Carousel() {
 
             <Title>MORTAL KOMBAT</Title>
             <SubTitleOne>MORTAL KOMBAT</SubTitleOne>
-            <Number>1/2</Number>
+            <Number>1 / 2</Number>
             <Price>R$299</Price>
             <Price2>,99</Price2>
             <P>
@@ -61,7 +61,7 @@ function Carousel() {
             <BoxArrow />
 
             <SubTitleTwo>RED DEAD II</SubTitleTwo>
-            <Number>2/2</Number>
+            <Number>2 / 2</Number>
           </Div>
         </div>
       </Fade>

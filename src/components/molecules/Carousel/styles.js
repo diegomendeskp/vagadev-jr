@@ -17,6 +17,12 @@ export const Img = styled.img`
   justify-content: center;
   align-items: center;
   z-index: 0;
+  @media (max-width: 500px) {
+    border-radius: 0px 0px 0px 10px;
+    top: 0;
+    width: 400px;
+    height: 500px;
+  }
 `;
 export const ImgTwo = styled.img`
   width: 100%;
@@ -28,6 +34,10 @@ export const ImgTwo = styled.img`
   align-items: center;
   z-index: 0;
   @media (max-width: 500px) {
+    border-radius: 0px 0px 0px 10px;
+    top: 0;
+    width: 400px;
+    height: 500px;
   }
 `;
 
@@ -38,6 +48,14 @@ export const Div = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  @media (max-width: 500px) {
+    background: rgba(0, 0, 0, 0.65);
+    width: 360px;
+    height: 280px;
+    bottom: 280px;
+    right: 0;
+    border-radius: 0px 0px 0px 10px;
+  }
 `;
 
 export const P = styled.p`
@@ -52,6 +70,11 @@ export const P = styled.p`
   font-size: 15px;
   text-align: end;
   line-height: 155%;
+  @media (max-width: 500px) {
+    bottom: 100px;
+    right: 50px;
+    width: 300px;
+  }
 `;
 
 export const Title = styled.p`
@@ -61,6 +84,11 @@ export const Title = styled.p`
   right: 300px;
   font-size: 40px;
   font-weight: bold;
+  @media (max-width: 500px) {
+    bottom: 250px;
+    right: 50px;
+    font-size: 25px;
+  }
 `;
 
 export const Price = styled.span`
@@ -70,6 +98,11 @@ export const Price = styled.span`
   right: 330px;
   font-size: 60px;
   font-weight: bold;
+  @media (max-width: 500px) {
+    bottom: 200px;
+    right: 80px;
+    font-size: 50px;
+  }
 `;
 export const Price2 = styled.span`
   position: absolute;
@@ -78,6 +111,10 @@ export const Price2 = styled.span`
   right: 300px;
   font-size: 20px;
   font-weight: bold;
+  @media (max-width: 500px) {
+    bottom: 225px;
+    right: 50px;
+  }
 `;
 export const BoxArrow = styled.div`
   position: absolute;
@@ -103,6 +140,11 @@ export const SubTitleOne = styled.p`
   font-size: 15px;
   transform: rotate(90deg);
   z-index: 7;
+  @media (max-width: 500px) {
+    transform: none;
+    bottom: 15px;
+    left: 10px;
+  }
 `;
 export const SubTitleTwo = styled.p`
   position: absolute;
@@ -113,6 +155,11 @@ export const SubTitleTwo = styled.p`
   font-size: 15px;
   transform: rotate(90deg);
   z-index: 6;
+  @media (max-width: 500px) {
+    transform: none;
+    bottom: 15px;
+    left: 10px;
+  }
 `;
 export const Number = styled.p`
   position: absolute;
@@ -130,4 +177,13 @@ export const Number = styled.p`
   font-size: 15px;
   z-index: 6;
   border-radius: 0px 0px 0px 10px;
+  @media (max-width: 500px) {
+    bottom: 0;
+    border-radius: 0;
+    right: 0px;
+    height: 50px;
+    width: 150px;
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
 `;
